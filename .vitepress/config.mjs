@@ -12,16 +12,19 @@ export default defineConfig({
           text: "第一次",
           collapsed: false,
           items: [
-            { text: "LLM 初探", link: "/discussions/llm-quick-lok/" },
-            { text: "LLM 详解", link: "/discussions/llm-in-depth/" },
+            {
+              text: "GNN 简介",link: "/discussion/GNN-intro/"
+            }
           ],
         },
         {
           text: "第二次",
           collapsed: false,
-          items: [{ text: "LLM 初探", link: "/discussions/llm-quick-look/" }],
+          items: [
+            { text: "LLM 初探", link: "/discussions/llm-quick-look/" }],
         },
       ],
     },
+
   },
 });
