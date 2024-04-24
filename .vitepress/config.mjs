@@ -2,6 +2,7 @@ import { defineConfig } from "vitepress";
 
 export default defineConfig({
   themeConfig: {
+    siteTitle: "Deep Learning Discussion",
     nav: [
       { text: "Home", link: "/" },
       { text: "研讨会记录", link: "/discussions/" },
