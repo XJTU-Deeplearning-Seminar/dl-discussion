@@ -13,7 +13,7 @@ export default defineConfig({
           collapsed: false,
           items: [
             {
-              text: "GNN 简介",link: "/discussion/GNN-intro/"
+              text: "GNN 简介",link: "/discussions/GNN-intro/"
             }
           ],
         },
