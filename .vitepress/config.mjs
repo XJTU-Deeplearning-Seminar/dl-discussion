@@ -7,7 +7,10 @@ export default defineConfig({
   cleanUrls: true,
   themeConfig: {
     siteTitle: "Deep Learning Discussion",
-    nav: [{ text: "研讨会记录", link: "/discussions/" }],
+    nav: [
+      { text: "研讨会记录", link: "/discussions/" },
+      { text: "成员", link: "/members" },
+    ],
     sidebar: {
       discussions: [
         {

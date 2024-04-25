@@ -10,9 +10,9 @@ hero:
     - theme: brand
       text: 研讨课
       link: /discussions/
-    # - theme: alt
-    #   text: API Examples
-    #   link: /api-examples
+    - theme: alt
+      text: 成员
+      link: /members
 
 # features:
 #   - title: Feature A
