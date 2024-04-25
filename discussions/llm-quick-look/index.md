@@ -6,9 +6,9 @@ NLP 的简单介绍和一些特征
 
 - 输入为文本，可能有一些特殊的字符串（`<|eos|>`）等。
 - 经过 Tokenizer，变为一个 token 数组
-- token 数组进入模型，生成数组的下一个值的概率分布 (logits)，取概率最高的（或者前几个里随机取）。
+- token 数组进入模型，生成数组的下一个值的概率分布，取概率最高的（或者前几个里随机取）。
 - 如此循环，不断延长数组。
-- 到了该结束的位置，将新生成的 Embedding 们通过 Tokenizer 转换为文本。
+- 到了该结束的位置，将新生成的 tokens 通过 Tokenizer 转换为文本。
 
 ## LLM 领域的特征
 
@@ -37,7 +37,7 @@ NLP 的简单介绍和一些特征
 
 ## 微调？拼接 Prompt！
 
-典型的微调文本 (alpaca style)：
+典型的微调文本：
 
 ```
 Below is an instruction that describes a task. Write a response that appropriately completes the request. 
@@ -53,7 +53,7 @@ sum += num return sum
 
 ## 多轮对话？
 
-Prompt 拼接！( Mistral Instruct )
+( Mistral Instruct )
 
 ```
 <s>[INST] You are a helpful code assistant. Your task is to generate a valid JSON object based on the given information. So for instance the following:
@@ -75,10 +75,6 @@ lastname: Pot
 address: #1 Bisson St.
 [/INST]
 ```
-
-## 输出结构化数据
-
-![image-20240424230542567](./image-20240424230542567.png)
 
 ## Prompt engineering
 
