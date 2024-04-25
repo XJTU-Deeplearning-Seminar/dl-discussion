@@ -1,6 +1,9 @@
 import { defineConfig } from "vitepress";
 
 export default defineConfig({
+  lang: "zh-CN",
+  title: "Deep Learning Discussion",
+  lastUpdated: true,
   themeConfig: {
     siteTitle: "Deep Learning Discussion",
     nav: [{ text: "研讨会记录", link: "/discussions/" }],
@@ -17,6 +20,9 @@ export default defineConfig({
           items: [{ text: "LLM 初探", link: "/discussions/llm-quick-look/" }],
         },
       ],
+    },
+    search: {
+      provider: "local",
     },
   },
 });
