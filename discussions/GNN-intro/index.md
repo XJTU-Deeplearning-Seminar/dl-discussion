@@ -71,7 +71,7 @@ GNN的深度可以是任意的(这里指可以认为指定，只不过太深的�
 ## Code Sample
 
 格式可能有点乱，具体的话可以访问(https://github.com/kiyotakali/GNN_review)查看GCN示例代码
-```
+```python
 class GCN(nn.Module):
 
     """ 2 Layer Graph Convolutional Network.
