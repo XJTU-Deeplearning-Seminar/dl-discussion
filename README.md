@@ -6,7 +6,7 @@
 
 建议使用 rebase 的工作流。 对于修改自己 markdown 文件的 commit，Commit message 推荐为 `docs: add/modify 文章标题`，其他类型的提交请参考 [Conventional Commits](https://www.conventionalcommits.org/zh-hans/v1.0.0/)。
 
-简单教程：每次自己 Commit（提交）之后，在终端运行 `git pull --rebase`，然后解决冲突（如果有的话），再运行 `git push`。
+简单教程：每次自己 Commit（提交）之后，在终端运行 `git pull --rebase`（或者将 VSCode 设置中的 "Git: Rebase When Sync" 打开后运行 Sync （同步）），然后解决冲突（如果有的话），再运行 `git push`。
 
 仓库目前打开了 "Require linear history" 选项，同时禁止任何人 `force push`。因此请不要使用 `merge`，而是使用 `rebase`。
 
