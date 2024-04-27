@@ -16,6 +16,13 @@ const members = [
       { icon: 'github', link: 'https://github.com/kiyotakali' },
     ]
   },
+  {
+    avatar: "https://avatars.githubusercontent.com/u/55980292",
+    name: "yy4382",
+    links: [
+      { icon: 'github', link: 'https://github.com/yy4382' },
+    ]
+  }
 ]
 </script>
 
