@@ -5,6 +5,7 @@ export default defineConfig({
   title: "Deep Learning Discussion",
   lastUpdated: true,
   cleanUrls: true,
+  base: "/dl-discussion/",
   themeConfig: {
     siteTitle: "Deep Learning Discussion",
     nav: [
