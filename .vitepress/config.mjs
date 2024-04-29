@@ -6,6 +6,9 @@ export default defineConfig({
   lastUpdated: true,
   cleanUrls: true,
   base: "/dl-discussion/",
+  markdown: {
+    math: true,
+  },
   themeConfig: {
     siteTitle: "Deep Learning Discussion",
     nav: [
