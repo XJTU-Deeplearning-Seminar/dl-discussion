@@ -27,8 +27,10 @@ export default defineConfig({
         {
           text: "第三次",
           collapsed: false,
-          items: [{ text: "LAD-GNN(注意力与蒸馏)", link: "/discussions/LAD-GNN/" }],
-        }
+          items: [
+            { text: "LAD-GNN(注意力与蒸馏)", link: "/discussions/LAD-GNN/" },
+          ],
+        },
       ],
     },
     search: {
