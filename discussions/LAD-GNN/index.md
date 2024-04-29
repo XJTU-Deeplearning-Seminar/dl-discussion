@@ -1,5 +1,7 @@
 # LAD-GNN论文导读与随思
 
+**主讲人:kiyotakali**
+
 ## 论文标题
 
 Label Attentive Distillation for GNN-Based Graph Classification
