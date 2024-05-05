@@ -20,7 +20,7 @@ export default defineConfig({
         {
           text: "第一次",
           collapsed: false,
-          items: [{ text: "GNN 简介", link: "/discussions/GNN-intro/" }],
+          items: [{ text: "GNN 简介", link: "/discussions/GNN-intro/" }, { text: "some math for GNN", link: "/discussions/GNN_math/" }],
         },
         {
           text: "第二次",
