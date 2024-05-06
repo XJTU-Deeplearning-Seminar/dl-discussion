@@ -165,9 +165,9 @@ $$
 
 聚合邻居节点的信息。
 
-<img src=".\p2.png" alt="image-20240430182145629" style="zoom:50%;" />
+![p2](p2.png)
 
-<img src=".\p1.png" alt="image-20240430182214076" style="zoom:50%;" />
+![p1](p1.png)
 
 ## [reference](#reference)
 
