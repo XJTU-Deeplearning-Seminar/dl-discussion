@@ -152,7 +152,7 @@ Y\\
 &将D^{-\frac{1}{2}}AD^{-\frac{1}{2}}+I_N归一化到[0,1]:\\
 &= \theta (((\hat{D}^{-\frac{1}{2}}\hat{A}\hat{D}^{-\frac{1}{2}}))X)\\
 &总体来看，\\
-&D^{-\frac{1}{2}}(D-A)D^{-\frac{1}{2}} ——> \hat{D}^{-\frac{1}{2}}\hat{A}\hat{D}^{-\frac{1}{2}},\hat{A} = A + I_N, \hat{D_{ii}} = \sum_j \hat{A_{ij}}\\
+&D^{-\frac{1}{2}}(D-A)D^{-\frac{1}{2}} --> \hat{D}^{-\frac{1}{2}}\hat{A}\hat{D}^{-\frac{1}{2}},\hat{A} = A + I_N, \hat{D_{ii}} = \sum_j \hat{A_{ij}}\\
 (9)
 \end{align}
 $$
