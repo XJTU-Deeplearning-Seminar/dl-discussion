@@ -18,7 +18,7 @@
 
 - 在二维平面上表现情绪（valence & arousal)
 
-  ![1](.\1.png)
+  ![1](./img1.png)
 
   > 1. 能更准确的描述标签信息
   > 2. 没有被数据集广泛采纳与使用
@@ -39,7 +39,7 @@
 
 - 传统方法：
 
-  ![2](.\2.png)
+  ![2](./img2.png)
 
   > 1. 信号预处理：包括去噪和分段处理，以识别有意义的信号单元并去除输入信号的噪声
   > 2. 特征提取：特征提取与选择
@@ -47,15 +47,15 @@
 
 - DL方法
 
-  ![3](.\3.png)
+  ![3](./img3.png)
 
   > 主要用的还是CNN，LSTM，DBN，RNN和他们的组合
   >
-  > ![4](.\4.png)
+  > ![4](./img4.png)
   >
   > 常用数据集
   >
-  > ![5](.\5.png)
+  > ![5](./img5.png)
 
 
 
@@ -65,7 +65,7 @@
 
 - 频谱？相位谱？时域？频域？
 
-  ![6](.\6.png)
+  ![6](./img6.png)
 
   > [一图看懂：信号的时域、频域、相位  - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/426421098)
 
@@ -79,9 +79,9 @@
   >
   >    下面这几张图分别给出了语音、音乐和环境噪声的频域图像：
   >
-  >    ![9](.\9.png)
+  >    ![9](./img9.png)
   >
-  >    ![8](.\8.png)
+  >    ![8](./img8.png)
   >
   > 2. 可能的去噪方法
   >
@@ -106,7 +106,7 @@
   >
   >   <u>模拟人耳听到的声音：低频覆盖高频，音量大的覆盖音量小的</u>
   >
-  >   ![10](.\10.png)
+  >   ![10](./img10.png)
   >
   >   1. 对音频信号进行傅里叶转换，得到信号的频谱
   >   2. 用梅尔滤波器组（一个模拟人耳频率感知的滤波器组）对频谱进行处理，产生梅尔频谱
@@ -119,7 +119,7 @@
 
 - **GLAM**
 
-  ![11](.\11.png)
+  ![11](./img11.png)
 
   > SPEECH EMOTION RECOGNITION WITH GLOBAL-AWARE FUSION ON MULTI-SCALE FEATURE REPRESENTATION
   >
@@ -129,4 +129,4 @@
 
 - **Deep Convolutional Neural Network and Gray Wolf Optimization Algorithm for Speech Emotion Recognition**
 
-  ![13](.\13.png)
+  ![13](./img13.png)
