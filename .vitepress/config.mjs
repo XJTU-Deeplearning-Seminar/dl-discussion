@@ -23,7 +23,7 @@ export default defineConfig({
           items: [
             { text: "GNN 简介", link: "/discussions/GNN-intro/" },
             { text: "some math for GNN", link: "/discussions/GNN_math/" },
-            { text: "AC 简介", link: "/discussions/AC-intro/" }
+            { text: "AC 简介", link: "/discussions/AC-intro/" },
           ],
         },
         {
@@ -31,7 +31,7 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: "LLM 初探", link: "/discussions/llm-quick-look/" },
-            { text: "FER1", link: "/discussions/FER1/" }
+            { text: "FER1", link: "/discussions/FER1/" },
           ],
         },
         {
