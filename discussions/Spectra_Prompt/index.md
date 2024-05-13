@@ -69,7 +69,7 @@ ps:最原版InfoNCE
 
 ​	根据第2点对正交基向量进行微调：$𝑈_{𝑝𝑡_𝐾} = 𝑃_𝑡𝑈_{𝑓𝑡_K}$
 
-<img src="C:\Users\86133\AppData\Roaming\Typora\typora-user-images\image-20240410162714334.png" alt="image-20240410162714334" style="zoom:50%;" />
+<img src=".\image-20240410162714334.png" alt="image-20240410162714334" style="zoom:50%;" />
 
 z是频域信号，v是特征向量，x是图信号，$\lambda$是特征值，F是扰动以后的矩阵，q是扰动信号
 
@@ -83,7 +83,7 @@ ptK是pre-train的前K个，ftK是fine-tune的前K个
 
 解决的问题：从频域的角度来寻找图提示学习的方法。
 
-<img src="C:\Users\86133\AppData\Roaming\Typora\typora-user-images\image-20240501195117295.png" alt="image-20240501195117295" style="zoom:50%;" />
+<img src=".\image-20240501195117295.png" alt="image-20240501195117295" style="zoom:50%;" />
 
 频域上计算比在时域，在图上主要是空域，计算来得方便得多。
 
