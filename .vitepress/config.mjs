@@ -24,7 +24,7 @@ export default defineConfig({
             { text: "GNN 简介", link: "/discussions/GNN-intro/" },
             { text: "some math for GNN", link: "/discussions/GNN_math/" },
             { text: "AC 简介", link: "/discussions/AC-intro/" },
-            { text: "OOD_intro", link: "/discussions/OOD_intro/" }
+            { text: "OOD_intro", link: "/discussions/OOD_intro/" },
           ],
         },
         {
