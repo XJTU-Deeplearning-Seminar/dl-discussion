@@ -29,8 +29,28 @@ const members = [
     links: [
       { icon: 'github', link: 'https://github.com/xjtu-wjz' },
     ]
+  },
+  {
+    avatar: "https://avatars.githubusercontent.com/u/107924172?v=4",
+    name: "xjtu-cch",
+    links: [
+      { icon: 'github', link: 'https://github.com/2421468125' },
+    ]
+  },
+  {
+    avatar: "https://avatars.githubusercontent.com/u/140293041?v=4",
+    name: "Lenny-Dai",
+    links: [
+      { icon: 'github', link: 'https://github.com/Lenny-Dai' },
+    ]
+  },
+  {
+    avatar: "https://avatars.githubusercontent.com/u/121414835?v=4",
+    name: "worfsmile",
+    links: [
+      { icon: 'github', link: 'https://github.com/worfsmile' },
+    ]
   }
-
 ]
 </script>
 
