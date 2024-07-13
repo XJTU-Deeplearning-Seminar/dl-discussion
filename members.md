@@ -22,7 +22,15 @@ const members = [
     links: [
       { icon: 'github', link: 'https://github.com/yy4382' },
     ]
+  },
+  {
+    avatar: "https://avatars.githubusercontent.com/u/123150988?v=4",
+    name: "xjtu-wjz",
+    links: [
+      { icon: 'github', link: 'https://github.com/xjtu-wjz' },
+    ]
   }
+
 ]
 </script>
 
