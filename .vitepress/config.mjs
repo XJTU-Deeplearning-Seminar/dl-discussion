@@ -42,6 +42,13 @@ export default defineConfig({
             { text: "LAD-GNN(注意力与蒸馏)", link: "/discussions/LAD-GNN/" },
           ],
         },
+        {
+          text: "第四次",
+          collapsed: false,
+          items: [
+            { text: "Influence_function(影响函数)", link: "/discussions/Influence_function/" },
+          ],
+        },
       ],
     },
     search: {
