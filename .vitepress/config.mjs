@@ -46,7 +46,10 @@ export default defineConfig({
           text: "第四次",
           collapsed: false,
           items: [
-            { text: "Influence_function(影响函数)", link: "/discussions/Influence_function/" },
+            {
+              text: "Influence_function(影响函数)",
+              link: "/discussions/Influence_function/",
+            },
           ],
         },
       ],
