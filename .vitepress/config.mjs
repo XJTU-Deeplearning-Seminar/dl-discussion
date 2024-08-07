@@ -52,6 +52,16 @@ export default defineConfig({
             },
           ],
         },
+        {
+          text: "第五次",
+          collapsed: false,
+          items: [
+            {
+              text: "CLIP 简介",
+              link: "/discussions/CLIP_intro/",
+            },
+          ],
+        },
       ],
     },
     search: {
