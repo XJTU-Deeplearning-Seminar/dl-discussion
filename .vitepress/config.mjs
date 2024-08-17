@@ -61,8 +61,8 @@ export default defineConfig({
               link: "/discussions/CLIP_intro/",
             },
             {
-              text:"DBA&CBA_in_graph",
-              link:"/discussions/DBA&CBA _in_graph/"
+              text: "DBA&CBA_in_graph",
+              link: "/discussions/DBA&CBA _in_graph/",
             },
           ],
         },
