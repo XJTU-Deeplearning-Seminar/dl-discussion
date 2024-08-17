@@ -60,6 +60,10 @@ export default defineConfig({
               text: "CLIP 简介",
               link: "/discussions/CLIP_intro/",
             },
+            {
+              text:"DBA&CBA_in_graph",
+              link:"/discussions/DBA&CBA _in_graph/"
+            },
           ],
         },
       ],
