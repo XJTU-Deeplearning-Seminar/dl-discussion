@@ -40,6 +40,7 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: "LAD-GNN(注意力与蒸馏)", link: "/discussions/LAD-GNN/" },
+            { text: "野生数据集中的OOD检测", link: "/discussions/OOD-in-wild-datasets/"}
           ],
         },
         {
